@@ -1,15 +1,16 @@
 @title[Introduction]
 ## Applied Gitology
-#### Git et Github pour les petits nouveaux
+#### Git & GitHub pour les petits nouveaux
 
 ---
 @title[Difference]
-## Git ou Github ?
-* Git -> Logiciel de gestion de versions, Linus Torvalds, 2006
-* Github -> Site & service d'hebergement de repos Git, 2008
+## Git ou GitHub ?
+* Git -> Logiciel de gestion de versions (VCS), Linus Torvalds, 2006
+* GitHub -> Site et service d'hebergement de repos Git, 2008
 
 ---
 @title[Repositories]
-## Repos ? Kezako ?
+## Repo ? Kezako ?
 Un repository (dépot) contient tous les fichiers du projet. 
+
 ![Mes Repos](assets/mes-repos.png)

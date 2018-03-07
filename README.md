@@ -1,4 +1,8 @@
 # Applied-Gitology
-The Applied Gitology Workshop
+Le Workshop Applied Gitology, edition 2018 (la première en fait)
 
-This repository includes the slides used during the Workshop, as well as several exercises...
+# Présentation
+La présentation est visible sur [GitPitch](https://gitpitch.com/SUStudentDevs/Applied-Gitology), et est réalisée en Markdown dans le fichier `PITCHME.md`.
+
+# Exercices
+A venir...
