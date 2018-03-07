@@ -24,5 +24,6 @@ Un repository (dépot) contient tous les fichiers du projet.
 ---
 @title[Status]
 ## Help ! Je suis perdu
+Pas de panique -> `git status`
 
 ![Status](assets/status.png)
