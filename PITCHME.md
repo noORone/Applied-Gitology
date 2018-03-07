@@ -17,7 +17,7 @@ Un repository (dépot) contient tous les fichiers du projet.
 
 ---
 @title[Workflow de base]
-## Quelques commandes 'de base'
+## Quelques premières commandes
 
 ![Workflow](assets/working-staging-repo.png)
 
