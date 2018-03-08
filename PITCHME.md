@@ -20,24 +20,24 @@
 ## Repo ? Kezako ?
 Un repository (dépot) contient tous les fichiers du projet + historique des changements (.git/)
 
-![Mes Repos](assets/mes-repos.png)
+![Mes Repos](assets/img/mes-repos.png)
 
 ---
 @title[Commit]
 ## Commit
 Plus petite unité de changement. Créer un commit : `git commit`
 
-![Commits](assets/commits.png)
+![Commits](assets/img/commits.png)
 
 ---
 @title[Workflow de base]
 ## Quelques premières commandes
 
-![Workflow](assets/working-staging-repo.png)
+![Workflow](assets/img/working-staging-repo.png)
 
 ---
 @title[Status]
 ## Help ! Je suis perdu
 Pas de panique -> `git status`
 
-![Status](assets/status.png)
+![Status](assets/img/status.png)
