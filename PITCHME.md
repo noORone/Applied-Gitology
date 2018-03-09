@@ -63,8 +63,19 @@ Et une autre démo
 
 ---
 @title[Collaboration]
+## Collaboration
+* Forker un repo : créer une copie du repo d'un autre utilisateur (on appelle le repo forké 'upstream')
+* Pull request : demander au propriétaire de 'upstream' d'intégrer les changements
 
 ---
 @title[GitKraken]
 ## Un GUI pour Git : GitKraken
 ![GitKraken](assets/img/gitkraken.png)
+
+---
+@title[Student Developer Pack]
+## Github Student Developer Pack
+![https://education.github.com/pack](https://education.github.com/pack)
+* Repos privés illimités
+* GitKraken Pro pour un an
+* Et pleins de bonnes choses !
