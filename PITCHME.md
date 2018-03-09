@@ -35,9 +35,25 @@ Plus petite unité de changement. Créer un commit : `git commit`
 
 ![Workflow](assets/img/working-staging-repo.png)
 
+Et une petite démo
+
 ---
 @title[Status]
 ## Help ! Je suis perdu
 Pas de panique -> `git status`
 
 ![Status](assets/img/status.png)
+
+---
+@title[Remotes]
+## Remotes
+
+![Remote](assets/img/remotes.png)
+
+Et une autre démo
+
+---
+@title[GitHub]
+## Et GitHub dans tout ça ?
+* GitHub permet d'héberger les remotes
+* En pratique, initialiser le repo sur GitHub puis le cloner via Git : `git clone`
