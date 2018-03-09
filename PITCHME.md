@@ -57,3 +57,14 @@ Et une autre démo
 ## Et GitHub dans tout ça ?
 * GitHub permet d'héberger les remotes
 * En pratique, initialiser le repo sur GitHub puis le cloner via Git : `git clone`
+
+---
+@title[Branches]
+
+---
+@title[Collaboration]
+
+---
+@title[GitKraken]
+## Un GUI pour Git : GitKraken
+![GitKraken](assets/img/gitkraken.png)
