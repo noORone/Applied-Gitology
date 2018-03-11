@@ -6,3 +6,7 @@ La présentation est visible sur [GitPitch](https://gitpitch.com/SUStudentDevs/A
 
 # Exercices
 A venir...
+
+# Liens et resources
+* [Github Student Developer Pack](https://education.github.com/pack)
+* [Ma page Campus Experts](https://githubcampus.expert/Vertmo/)

@@ -18,7 +18,7 @@
 ---
 @title[Repositories]
 ## Repo ? Kezako ?
-Un repository (dépot) contient tous les fichiers du projet + historique des changements (.git/)
+Un repository (dépot) contient tous les fichiers du projet + historique des changements (.git/). `git init` pour creer un repo en local.
 
 ![Mes Repos](assets/img/mes-repos.png)
 
@@ -58,14 +58,21 @@ Et une autre démo
 * GitHub permet d'héberger les remotes
 * En pratique, initialiser le repo sur GitHub puis le cloner via Git : `git clone`
 
+Note:
+Initialiser un repo vide puis le cloner
+
 ---
 @title[Branches]
 
 ---
 @title[Collaboration]
 ## Collaboration
+* Ouvrir une issue sur un repo : signaler un bug ou demander une amélioration
 * Forker un repo : créer une copie du repo d'un autre utilisateur (on appelle le repo forké 'upstream')
 * Pull request : demander au propriétaire de 'upstream' d'intégrer les changements
+
+Note:
+Montrer un exemple d'issue (par exemple https://github.com/CodingTrain/website/issues). Aussi demo forking + PR.
 
 ---
 @title[GitKraken]
