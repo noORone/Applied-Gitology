@@ -18,7 +18,9 @@
 ---
 @title[Repositories]
 ## Repo ? Kezako ?
-Un repository (dépot) contient tous les fichiers du projet + historique des changements (.git/). `git init` pour creer un repo en local.
+Un repository (dépot) contient tous les fichiers du projet + historique des changements (.git/).
+
+`git init` pour créer un repo en local.
 
 ![Mes Repos](assets/img/mes-repos.png)
 
@@ -63,6 +65,13 @@ Initialiser un repo vide puis le cloner
 
 ---
 @title[Branches]
+
+---
+@title[Commandes de branches]
+## Commandes de branches
+* `git branch <nom>` pour créer une branche
+* `git checkout <nom>` pour changer de branche
+* `git merge <branche2>` pour merger branche2 dans la branche actuelle
 
 ---
 @title[Collaboration]
