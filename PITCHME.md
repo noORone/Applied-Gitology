@@ -74,14 +74,26 @@ Initialiser un repo vide puis le cloner
 * `git merge <branche2>` pour merger branche2 dans la branche actuelle
 
 ---
+@title[Open source et collaboration]
+## Open source et collaboration
+GitHub est "la plus grande communauté open source du monde" : Git et GitHub permet d'aisément collaborer aux projets FOSS d'autres utilisateurs
+
+---
 @title[Collaboration]
-## Collaboration
+## Collaboration en pratique
 * Ouvrir une issue sur un repo : signaler un bug ou demander une amélioration
 * Forker un repo : créer une copie du repo d'un autre utilisateur (on appelle le repo forké 'upstream')
 * Pull request : demander au propriétaire de 'upstream' d'intégrer les changements
 
 Note:
 Montrer un exemple d'issue (par exemple https://github.com/CodingTrain/website/issues). Aussi demo forking + PR.
+
+---
+@title[Dans un projet public...]
+## Dans un projet public, ne pas oublier
+* README.md : description du projet
+* LICENSE : document légal. Sans licence, les lois de copyright normale s'appliquent (pas Free Software du tout)
+* CONTRIBUTING.md et CODE\_OF\_CONDUCT.md : pour un gros projet, respectivement guide de contribution et code de conduite de la communauté
 
 ---
 @title[GitKraken]
@@ -95,3 +107,9 @@ Montrer un exemple d'issue (par exemple https://github.com/CodingTrain/website/i
 * Repos privés illimités
 * GitKraken Pro pour un an
 * Et pleins de bonnes choses !
+
+---
+@title[La suite]
+## Et maintenant ?
+* Des exercices : [https://github.com/SUStudentDevs/Applied-Gitology](https://github.com/SUStudentDevs/Applied-Gitology)
+* Des guides plus détaillés : [https://guides.github.com](https://guides.github.com)
