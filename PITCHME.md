@@ -65,6 +65,8 @@ Initialiser un repo vide puis le cloner
 
 ---
 @title[Branches]
+## Branches
+![Branches](assets/img/branches.png)
 
 ---
 @title[Commandes de branches]
@@ -103,7 +105,7 @@ Montrer un exemple d'issue (par exemple https://github.com/CodingTrain/website/i
 ---
 @title[Student Developer Pack]
 ## Github Student Developer Pack
-![https://education.github.com/pack](https://education.github.com/pack)
+[https://education.github.com/pack](https://education.github.com/pack)
 * Repos privés illimités
 * GitKraken Pro pour un an
 * Et pleins de bonnes choses !
