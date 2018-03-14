@@ -47,6 +47,13 @@ Pas de panique -> `git status`
 ![Status](assets/img/status.png)
 
 ---
+@title[.gitignore]
+## Et si je veux garder des secrets ?
+* `.gitignore` permet de lister les fichiers que vous ne voulez pas ajouter au repo (binaires générés par le compilateur, fichiers de config secrets, etc...)
+* Wildcard `*` et `**` supportés, ainsi que noms de dossiers, par exemple `target/`
+* En pratique, GitHub fournit des `.gitignore` pour la plupart des langages et scénarios possibles.
+
+---
 @title[Remotes]
 ## Remotes
 
@@ -94,7 +101,7 @@ Montrer un exemple d'issue (par exemple https://github.com/CodingTrain/website/i
 @title[Dans un projet public...]
 ## Dans un projet public, ne pas oublier
 * README.md : description du projet
-* LICENSE : document légal. Sans licence, les lois de copyright normale s'appliquent (pas Free Software du tout)
+* LICENSE : document légal. Sans licence, les lois de copyright normale s'appliquent (pas Free Software du tout). [Choose a Licence](https://choosealicense.com/)
 * CONTRIBUTING.md et CODE\_OF\_CONDUCT.md : pour un gros projet, respectivement guide de contribution et code de conduite de la communauté
 
 ---
