@@ -86,13 +86,15 @@ Initialiser un repo vide puis le cloner
 @title[Merge Conflict]
 ## Merge conflict : aie aie aie
 Git gère le code ligne par ligne, donc si deux personnes modifient la meme ligne : conflit
+
 ![Conflict](assets/img/conflict.png)
-![Encore Conflict](assets/img/conflict.png)
+![Encore Conflict](assets/img/conflict2.png)
 
 ---
 @title[Resolution]
 ## Resolution de conflit
 On édite les fichiers incriminés "a la main"
+
 ![Resolution](assets/img/conflict_res.png)
 
 ---
