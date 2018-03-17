@@ -5,6 +5,7 @@
 ---
 @title[Difference]
 ## Git ou GitHub ?
+![Logos](assets/img/git-et-github.png)
 * Git -> Logiciel de gestion de versions (VCS), Linus Torvalds, 2006
 * GitHub -> Site et service d'hebergement de repos Git, 2008
 
@@ -18,7 +19,7 @@
 ---
 @title[Repositories]
 ## Repo ? Kezako ?
-Un repository (dépot) contient tous les fichiers du projet + historique des changements (.git/).
+Repository (dépot) = fichiers + historique (.git/).
 
 `git init` pour créer un repo en local.
 
@@ -27,7 +28,7 @@ Un repository (dépot) contient tous les fichiers du projet + historique des cha
 ---
 @title[Commit]
 ## Commit
-Plus petite unité de changement. Créer un commit : `git commit`
+Plus petite unité de changement. `git commit`
 
 ![Commits](assets/img/commits.png)
 
@@ -49,9 +50,9 @@ Pas de panique -> `git status`
 ---
 @title[.gitignore]
 ## Et si je veux garder des secrets ?
-* `.gitignore` permet de lister les fichiers que vous ne voulez pas ajouter au repo (binaires générés par le compilateur, fichiers de config secrets, etc...)
+* `.gitignore` : fichiers que vous ne voulez pas ajouter au repo (binaires générés par le compilateur, fichiers de config secrets, etc...)
 * Wildcard `*` et `**` supportés, ainsi que noms de dossiers, par exemple `target/`
-* En pratique, GitHub fournit des `.gitignore` pour la plupart des langages et scénarios possibles.
+* GitHub fournit des `.gitignore` pour la plupart des langages
 
 ---
 @title[Remotes]
@@ -105,8 +106,8 @@ GitHub est "la plus grande communauté open source du monde" : Git et GitHub per
 ---
 @title[Collaboration]
 ## Collaboration en pratique
-* Ouvrir une issue sur un repo : signaler un bug ou demander une amélioration
-* Forker un repo : créer une copie du repo d'un autre utilisateur (on appelle le repo forké 'upstream')
+* Issue : bug report ou demande d'amélioration
+* Forker : copier le repo d'un autre utilisateur (on appelle le repo forké 'upstream')
 * Pull request : demander au propriétaire de 'upstream' d'intégrer les changements
 
 Note:
@@ -116,8 +117,20 @@ Montrer un exemple d'issue (par exemple https://github.com/CodingTrain/website/i
 @title[Dans un projet public...]
 ## Dans un projet public, ne pas oublier
 * README.md : description du projet
-* LICENSE : document légal. Sans licence, les lois de copyright normale s'appliquent (pas Free Software du tout). [Choose a Licence](https://choosealicense.com/)
+* LICENSE : document légal. Sans licence, les lois de copyright normales (pas Free Software du tout). [Choose a Licence](https://choosealicense.com/)
 * CONTRIBUTING.md et CODE\_OF\_CONDUCT.md : pour un gros projet, respectivement guide de contribution et code de conduite de la communauté
+
+---
+@title[Stash]
+## Astuce 1 : git stash
+* `git stash push` sauvegarde de l'état de la copie de travail
+* `git stash pop` charger le dernier état sauvegardé dans la copie de travail
+
+---
+@title[Rebase]
+## Astuce 2 : git rebase
+
+Changer l'historique. Un peu compliqué donc de la [doc](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 
 ---
 @title[GitKraken]
