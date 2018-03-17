@@ -83,6 +83,12 @@ Initialiser un repo vide puis le cloner
 * `git merge <branche2>` pour merger branche2 dans la branche actuelle
 
 ---
+@title[Merge Conflict]
+## Merge conflict : aie aie aie
+* Git gère le code ligne par ligne, donc si deux personnes modifient la meme ligne : conflit
+* On résout alors le conflit "à la main"
+
+---
 @title[Open source et collaboration]
 ## Open source et collaboration
 GitHub est "la plus grande communauté open source du monde" : Git et GitHub permet d'aisément collaborer aux projets FOSS d'autres utilisateurs
