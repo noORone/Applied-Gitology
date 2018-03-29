@@ -21,7 +21,7 @@
 ## Repo ? Kezako ?
 Repository (dépot) = fichiers + historique (.git/).
 
-`git init` pour créer un repo en local.
+`git init` pour créer un repo en local, ou `git clone <adresse>` pour cloner un repo existant.
 
 ![Mes Repos](assets/img/mes-repos.png)
 
@@ -60,7 +60,21 @@ Pas de panique -> `git status`
 
 ![Remote](assets/img/remotes.png)
 
+---
+@title[Commandes de Remotes]
+## Commandes de Remotes
+* `git fetch --all` récupère toutes les informations sur les branches distantes
+* `git pull <origin> <branch>` récupère et merge <branch> distante dans <branch> locale
+* `git push <origin> <branch>` pousse <branch> locale vers <branch> distante
+
 Et une autre démo
+
+---
+@title[Gérer les Remotes]
+## Gérer les Remotes
+* `git remote add <nom> <adresse>`
+* `git remote remove <name>`
+* `git remote -v` liste des remotes avec leurs adresses
 
 ---
 @title[GitHub]
