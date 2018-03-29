@@ -132,6 +132,29 @@ Montrer un exemple d'issue (par exemple https://github.com/CodingTrain/website/i
 
 Changer l'historique. Un peu compliqué donc de la [doc](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 
+`git rebase` (`-i` pour la version "interactive")
+
+---
+@title[Rebase]
+## "L'historique linéaire c'est mon objectif"
+![Rebase](assets/img/rebase.png)
+
+Ensuite, plus qu'a `git checkout master` et `git merge feature1`
+
+---
+@title[Rebase conflict]
+## Il peut aussi y avoir des conflits pendants le rebase !
+* `git rebase --abort` pour annuler
+* Résoudre les conflits comme précédemment et `git rebase --continue`
+
+---
+@title[Squash]
+## Squash : compresser les commits
+`git rebase -i HEAD~4`
+![Squash](assets/img/squash.png)
+
+![Squah resultat](assets/img/squash2.png)
+
 ---
 @title[GitKraken]
 ## Un GUI pour Git : GitKraken
