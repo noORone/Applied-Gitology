@@ -21,9 +21,13 @@
 ## Repo ? Kezako ?
 Repository (dépot) = fichiers + historique (.git/).
 
-`git init` pour créer un repo en local, ou `git clone <adresse>` pour cloner un repo existant.
-
 ![Mes Repos](assets/img/mes-repos.png)
+
+---
+@title[Créer un repository]
+## Créer un repository
+* `git init` : créer un repo local
+* `git clone <adresse>` : cloner un repo distant
 
 ---
 @title[Commit]
@@ -34,9 +38,15 @@ Plus petite unité de changement. `git commit`
 
 ---
 @title[Workflow de base]
-## Quelques premières commandes
+## Comment travailler
 
 ![Workflow](assets/img/working-staging-repo.png)
+
+---
+@title[Commandes]
+## Quelques commandes
+* `git add [fichiers]` : stager les fichiers
+* `git commit -m "<message>"` : créer un commit avec `<message>`
 
 Et une petite démo
 
@@ -167,7 +177,13 @@ Ensuite, plus qu'a `git checkout master` et `git merge feature1`
 `git rebase -i HEAD~4`
 ![Squash](assets/img/squash.png)
 
-![Squah resultat](assets/img/squash2.png)
+![Squash resultat](assets/img/squash2.png)
+
+---
+@title[Help]
+## Si vous êtes perdus
+* `git --help` : aide générale
+* `git <cmd> --help` : aide d'une commande
 
 ---
 @title[GitKraken]
