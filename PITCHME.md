@@ -180,6 +180,14 @@ Ensuite, plus qu'a `git checkout master` et `git merge feature1`
 ![Squash resultat](assets/img/squash2.png)
 
 ---
+@title[Diff]
+## Astuce 3 : git diff
+Changements entre deux commits
+* `git diff` : entre le dernier commit et la copie de travail
+* `git diff <commit>` : entre `<commit>` et la copie de travail
+* `git diff <commit1> <commit2>` : entre `<commit1>` et `<commit2>` (! ordre)
+
+---
 @title[Help]
 ## Si vous êtes perdus
 * `git --help` : aide générale
