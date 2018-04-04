@@ -40,7 +40,7 @@ Plus petite unité de changement. `git commit`
 @title[Workflow de base]
 ## Comment travailler
 
-![Workflow](assets/img/working-staging-repo.png)
+![Workflow](assets/img/commit.svg)
 
 ---
 @title[Commandes]
@@ -68,7 +68,7 @@ Pas de panique -> `git status`
 @title[Remotes]
 ## Remotes
 
-![Remote](assets/img/remotes.png)
+![Remote](assets/img/push_pull.svg)
 
 ---
 @title[Commandes de Remotes]
@@ -167,7 +167,7 @@ Ensuite, plus qu'a `git checkout master` et `git merge feature1`
 
 ---
 @title[Rebase conflict]
-## Il peut aussi y avoir des conflits pendants le rebase !
+## Il peut aussi y avoir des conflits pendant le rebase !
 * `git rebase --abort` pour annuler
 * Résoudre les conflits comme précédemment et `git rebase --continue`
 
