@@ -6,7 +6,7 @@
 @title[Difference]
 ## Git ou GitHub ?
 ![Logos](assets/img/git-et-github.png)
-* Git -> Logiciel de gestion de versions (VCS), Linus Torvalds, 2006
+* Git -> Logiciel de gestion de versions (VCS), Linus Torvalds, 2005
 * GitHub -> Site et service d'hebergement de repos Git, 2008
 
 ---
@@ -40,7 +40,7 @@ Plus petite unité de changement. `git commit`
 @title[Workflow de base]
 ## Comment travailler
 
-![Workflow](assets/img/commit.svg)
+![Workflow](assets/img/commit.png)
 
 ---
 @title[Commandes]
@@ -68,7 +68,7 @@ Pas de panique -> `git status`
 @title[Remotes]
 ## Remotes
 
-![Remote](assets/img/push_pull.svg)
+![Remote](assets/img/push_pull.png)
 
 ---
 @title[Commandes de Remotes]
