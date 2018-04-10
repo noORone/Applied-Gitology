@@ -84,7 +84,7 @@ Et une autre démo
 ## Gérer les Remotes
 * `git remote add <nom> <adresse>`
 * `git remote remove <name>`
-* `git remote -v` liste des remotes avec leurs adresses
+* `git remote -v`
 
 ---
 @title[GitHub]
@@ -121,6 +121,10 @@ Git gère le code ligne par ligne, donc si deux personnes modifient la meme lign
 On édite les fichiers incriminés "a la main"
 
 ![Resolution](assets/img/conflict_res.png)
+
+Ou par fichier :
+* `git checkout --ours <fichier>`
+* `git checkout --theirs <fichier>`
 
 ---
 @title[Open source et collaboration]
