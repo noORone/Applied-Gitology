@@ -15,9 +15,10 @@ Ce premier exercice a deux objectifs : vous faire pratiquer le processus de base
 * Forker ce repo depuis l'interface GitHub.
 * Cloner le fork résultant (attention, l'url du fork devrait être [https://github.com/votre\_username/Applied-Gitology]())
 * En local, créer une nouvelle branche avec un nom explicite. (`git branch <nom_de_la_branche>`). Passer sur cette branche (`git checkout <nom_de_la_branche>`). 
+* Aie. J'ai fait une erreur dans mon nom, est-ce que vous pourriez corriger ça pour moi ? Il suffit de pull la branche nommé `conflict` et de la merger dans la branche que vous venez de créer...
 * Editer le fichier `participants.txt` présent dans le repo, et uniquement celui la. Y ajouter votre username GitHub (celui présent dans l'URL ci dessus) en respectant la casse, sur une nouvelle ligne. Stage (`git add ...`) et commit (`git commit -m ...`) le fichier.
 * Pousser les modifications faites sur votre fork (`git push -u <nom_de_la_branche>`).
-* Ouvrir une PR pour merger votre branche dans la branche master de [https://github.com/SUStudentDevs/Applied-Gitology](https://github.com/SUStudentDevs/Applied-Gitology). Félicitation, c'est votre première PR, que je mergerai le plus vite possible !
+* Ouvrir une PR pour merger votre branche dans la branche `WS2018` de [https://github.com/SUStudentDevs/Applied-Gitology](https://github.com/SUStudentDevs/Applied-Gitology). Félicitation, c'est votre première PR, que je mergerai le plus vite possible !
 
 ### Exercice 2 : Des repos par milliers
 Maintenant que j'ai vos noms, on va pouvoir s'amuser ! Je vais maintenant vous demander de créer le plus de repos possibles, mais pas des repos vides bien entendu. Votre objectif est de mettre en ligne les projets, TPs, etc réalisés jusqu'ici a la FAC durant les semestres précédants celui ci. Vous pouvez suivre à l'écran le nombre total de repo créés durant l'atelier, ainsi que votre classement (l'application utilisée au tableau est [repo-counter](https://github.com/Vertmo/repo-counter), je vous invite à y jeter un coup d'oeil et à y contribuer si cela vous intéresse).
@@ -31,3 +32,7 @@ Petit rappel des phases pour créer un repo:
 # Liens et resources
 * [Github Student Developer Pack](https://education.github.com/pack)
 * [Ma page Campus Experts](https://githubcampus.expert/Vertmo/)
+* [Le repo-counter](https://github.com/Vertmo/repo-counter)
+Merci à Malik Ben Kirane pour les deux liens suivants (en anglais):
+* [Comprendre l'index](https://alblue.bandlem.com/2011/10/git-tip-of-week-understanding-index.html)
+* [Introduction pour les pythoniens](https://realpython.com/python-git-github-intro/)
