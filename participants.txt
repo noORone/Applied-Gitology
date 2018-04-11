@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-Vertmio
-=======
+
 Vertmo
->>>>>>> 0ab6cd0c0da7f62ad51838c52f1b144d15687239
 
 Apostolus
 
