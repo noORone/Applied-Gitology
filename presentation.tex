@@ -1,0 +1,134 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\graphicspath{{assets/img/}}
+
+\title{Applied Gitology}
+\date{13 Octobre 2018}
+\author{Basile Pesin}
+
+\usetheme{metropolis}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Git, GitHub, kezako ?}
+  \begin{center}
+    \includegraphics[height=.25\paperheight]{git-logo.png}\hspace{.1\paperwidth}
+    \includegraphics[height=.25\paperheight]{github-logo.png}
+  \end{center}
+  \begin{itemize}
+  \item Git: Logiciel de gestion de versions (VCS) décentralisé. Gère des repositories (fichiers + historiques)
+  \item GitHub: Hebergement et partage des repositories
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Repository}
+  \begin{center}
+      \includegraphics[height=.5\paperheight]{mes-repos.png}\\\vspace{.02\paperheight}
+    Fichiers + historique
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Commit}
+  \framesubtitle{Unité de changement}
+  \begin{center}
+    \includegraphics[width=.7\paperwidth]{commits.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Commit}
+  \framesubtitle{Ajout de fichier}
+  \begin{center}
+    \includegraphics[width=.8\paperwidth]{commit.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Status}
+  \framesubtitle{Quand on est perdu}
+  \begin{center}
+    \includegraphics[width=.8\paperwidth]{status.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Gestion de branches}
+  \begin{center}
+    \includegraphics[height=.7\paperheight]{branches.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Remotes}
+  \begin{center}
+    \includegraphics[height=.7\paperheight]{push_pull.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Remotes}
+  \framesubtitle{Gestion sur GitHub}
+  \begin{itemize}
+  \item GitHub permet d'héberger les remotes
+  \item Créer un repo ou en fork un autre
+  \item Puis $git\:clone$
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Collaboration}
+  \framesubtitle{GitHub et la collaboration}
+  \centering
+  GitHub est ``La plus grande communauté Open Source du monde'': Git et GitHub permettent aux développeurs de collaborer efficacement.\\
+  \vspace{10pt}
+  40 millions d'utilisateurs sur GitHub
+\end{frame}
+
+\begin{frame}
+  \frametitle{Collaboration}
+  \framesubtitle{En pratique (le GitHub flow)}
+  \begin{enumerate}
+  \item Trouver (ou ouvrir) une issue pour bug, nouvelle feature, etc...
+  \item Forker le repo et créer une branche
+  \item Coder !
+  \item Creer une PR (typiquement 1 PR = 1 branche) pour discuter du travail en cours, puis le soumettre (review). Lire le CONTRIBUTING.md !!
+  \item Si la PR est approuvée et mergée, cool ! Sinon (changes requested) -> retour à 3
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{GitHub Student Developer Pack}
+  \centering
+  \includegraphics[height=0.5\paperheight]{student-dev-pack.png}\\
+  \url{https://education.github.com/pack}
+\end{frame}
+
+\begin{frame}
+  \frametitle{GitKraken}
+  \framesubtitle{Un GUI pour Git}
+  \centering
+  \includegraphics[height=0.75\paperheight]{gitkraken.png}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Plus d'informations}
+  \begin{itemize}
+    \item Des guides: \url{https://guides.github.com/}
+    \item S'entrainer: \url{https://lab.github.com/}
+    \item GitHub flow: \url{https://guides.github.com/introduction/flow/}
+    \item La fiche aide mémoire distribuée
+  \end{itemize}
+\end{frame}
+
+\end{document}
