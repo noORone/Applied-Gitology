@@ -39,8 +39,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Commit}
-  \framesubtitle{Unité de changement}
+  \frametitle{Commit - l'unité de changement}
   \begin{center}
     \includegraphics[width=.7\paperwidth]{commits.png}
   \end{center}
@@ -48,18 +47,30 @@
 
 \begin{frame}
   \frametitle{Commit}
-  \framesubtitle{Ajout de fichier}
   \begin{center}
-    \includegraphics[width=.8\paperwidth]{commit.png}
+    \includegraphics[width=.7\paperwidth]{commit.png}
+  \end{center}
+  \begin{itemize}
+    \item \textbf{git add <fichier>}
+    \item \textbf{git commit -m <message>}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Status: quand on est perdu}
+  \begin{center}
+    \textbf{git status}\vspace{10px}
+    \includegraphics[width=.8\paperwidth]{status.png}
   \end{center}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Status}
-  \framesubtitle{Quand on est perdu}
-  \begin{center}
-    \includegraphics[width=.8\paperwidth]{status.png}
-  \end{center}
+  \frametitle{Ignorer des fichiers}
+  \begin{itemize}
+    \item \textit{.gitignore} -> liste de fichiers ignorés
+    \item Wildcards * et ** supportés (pas de regex par contre)
+    \item GitHub en fournit pour la plupart des langages
+  \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -67,6 +78,15 @@
   \begin{center}
     \includegraphics[height=.7\paperheight]{branches.png}
   \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Commandes de branches}
+  \begin{itemize}
+    \item \textbf{git branch <nom>} créer une branche
+    \item \textbf{git checkout <nom>} changer de branche
+    \item \textbf{git branch <nom>} merger <nom> dans la branche courante
+  \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -87,8 +107,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Remotes}
-  \framesubtitle{Gestion sur GitHub}
+  \frametitle{Remotes avec GitHub}
   \begin{itemize}
   \item GitHub permet d'héberger les remotes
   \item Créer un repo ou en fork un autre
