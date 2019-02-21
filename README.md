@@ -32,6 +32,7 @@ Petit rappel des phases pour créer un repo:
 * [Github Student Developer Pack](https://education.github.com/pack)
 * [Ma page Campus Experts](https://githubcampus.expert/Vertmo/)
 * [Le repo-counter](https://github.com/Vertmo/repo-counter)
+
 Merci à Malik Ben Kirane pour les deux liens suivants (en anglais):
 * [Comprendre l'index](https://alblue.bandlem.com/2011/10/git-tip-of-week-understanding-index.html)
 * [Introduction pour les pythoniens](https://realpython.com/python-git-github-intro/)
