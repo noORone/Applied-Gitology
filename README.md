@@ -16,7 +16,7 @@ Ce premier exercice a deux objectifs : vous faire pratiquer le processus de base
 * Cloner le fork résultant (attention, l'url du fork devrait être [https://github.com/votre\_username/Applied-Gitology]())
 * En local, créer une nouvelle branche avec un nom explicite. (`git branch <nom_de_la_branche>`). Passer sur cette branche (`git checkout <nom_de_la_branche>`). 
 * Editer le fichier `participants.txt` présent dans le repo, et uniquement celui la. Y ajouter votre username GitHub (celui présent dans l'URL ci dessus) en respectant la casse, sur une nouvelle ligne. Stage (`git add ...`) et commit (`git commit -m ...`) le fichier.
-* Pousser les modifications faites sur votre fork (`git push -u <nom_de_la_branche>`).
+* Pousser les modifications faites sur votre fork (`git push -u origin <nom_de_la_branche>`).
 * Ouvrir une PR pour merger votre branche dans la branche `WS2019` de [https://github.com/SUStudentDevs/Applied-Gitology](https://github.com/SUStudentDevs/Applied-Gitology). Félicitation, c'est votre première PR, que je mergerai le plus vite possible !
 
 ### Exercice 2 : Des repos par milliers
